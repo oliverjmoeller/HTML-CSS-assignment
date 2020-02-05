@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title> Internal Style Sheet Test Page  </title>
+    <style>
+        body {
+            color: navy;
+            background-color: yellow;
+            font-size: 18pt;
+            font-family: Veranda; Geneva, Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- page content -->
+</body>
+
+</html>
