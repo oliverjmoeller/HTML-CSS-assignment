@@ -1,26 +1,38 @@
-<!DOCTYPE html>
-<html lang="en-US">
+body {background-color: #C1FF70;
+    padding: 50px;
+}
+h1{color:#2E4220 ;
+   font-size: 20pt ;
+   font-family: Arial;
+}
 
-<head>
-    <meta charset="utf-8">
-    <title> Internal Style Sheet Test Page  </title>
-    <style>
-        body {
-            color: navy;
-            background-color: yellow;
-            font-size: 18pt;
-            font-family: Veranda; Geneva, Arial, Helvetica, sans-serif;
-        }
+h2{color:#618038 ;
+   font-size: 15pt ;
+   font-family: Arial;
+}
 
-        h1 {
-            font-style: italic;
-            font-weight: bold;
-        }
-    </style>
-</head>
+table, th, td{
+  border-collapse: collapse;
+  border: 1px solid black;
+  color: black ;
+  
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+  left: 0;
+  
+}
 
-<body>
-    <!-- page content -->
-</body>
-
-</html>
+.right {
+  right: 0;
+  background-color: #30401C;
+}
+  
